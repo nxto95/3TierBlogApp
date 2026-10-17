@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "BlogApp.PL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/BlogApp.PL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogApp.PL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BlogApp.PL/1.0.0": {
+      "type": "project",
+      "path": "../BlogApp.PL/BlogApp.PL.csproj",
+      "msbuildProject": "../BlogApp.PL/BlogApp.PL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "BlogApp.PL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/nxto/.nuget/packages/": {}
@@ -13,11 +35,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nxto/Programming/C#/BlogApp.BLL/BlogApp.BLL.csproj",
+      "projectUniqueName": "/home/nxto/Programming/3TierBlogApp/BlogApp.BLL/BlogApp.BLL.csproj",
       "projectName": "BlogApp.BLL",
-      "projectPath": "/home/nxto/Programming/C#/BlogApp.BLL/BlogApp.BLL.csproj",
+      "projectPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.BLL/BlogApp.BLL.csproj",
       "packagesPath": "/home/nxto/.nuget/packages/",
-      "outputPath": "/home/nxto/Programming/C#/BlogApp.BLL/obj/",
+      "outputPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.BLL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nxto/.nuget/NuGet/NuGet.Config"
@@ -32,7 +54,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/nxto/Programming/3TierBlogApp/BlogApp.PL/BlogApp.PL.csproj": {
+              "projectPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.PL/BlogApp.PL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

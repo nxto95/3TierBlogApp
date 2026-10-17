@@ -1292,6 +1292,32 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "BlogApp.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "BlogApp.PL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogApp.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogApp.BLL.dll": {}
+        }
+      },
+      "BlogApp.PL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/BlogApp.PL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogApp.PL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3713,10 +3739,21 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BlogApp.BLL/1.0.0": {
+      "type": "project",
+      "path": "../BlogApp.BLL/BlogApp.BLL.csproj",
+      "msbuildProject": "../BlogApp.BLL/BlogApp.BLL.csproj"
+    },
+    "BlogApp.PL/1.0.0": {
+      "type": "project",
+      "path": "../BlogApp.PL/BlogApp.PL.csproj",
+      "msbuildProject": "../BlogApp.PL/BlogApp.PL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "BlogApp.BLL >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.13",
@@ -3729,11 +3766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nxto/Programming/C#/BlogApp.DAL/BlogApp.DAL.csproj",
+      "projectUniqueName": "/home/nxto/Programming/3TierBlogApp/BlogApp.DAL/BlogApp.DAL.csproj",
       "projectName": "BlogApp.DAL",
-      "projectPath": "/home/nxto/Programming/C#/BlogApp.DAL/BlogApp.DAL.csproj",
+      "projectPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.DAL/BlogApp.DAL.csproj",
       "packagesPath": "/home/nxto/.nuget/packages/",
-      "outputPath": "/home/nxto/Programming/C#/BlogApp.DAL/obj/",
+      "outputPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nxto/.nuget/NuGet/NuGet.Config"
@@ -3748,7 +3785,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/nxto/Programming/3TierBlogApp/BlogApp.BLL/BlogApp.BLL.csproj": {
+              "projectPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.BLL/BlogApp.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

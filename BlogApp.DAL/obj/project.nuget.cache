@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZzbOg7nbkk=",
+  "dgSpecHash": "m/57cMVDnn0=",
   "success": true,
-  "projectFilePath": "/home/nxto/Programming/C#/BlogApp.DAL/BlogApp.DAL.csproj",
+  "projectFilePath": "/home/nxto/Programming/3TierBlogApp/BlogApp.DAL/BlogApp.DAL.csproj",
   "expectedPackageFiles": [
     "/home/nxto/.nuget/packages/azure.core/1.50.0/azure.core.1.50.0.nupkg.sha512",
     "/home/nxto/.nuget/packages/azure.identity/1.17.1/azure.identity.1.17.1.nupkg.sha512",

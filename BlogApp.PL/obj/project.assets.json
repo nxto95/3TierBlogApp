@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nxto/Programming/C#/BlogApp.PL/BlogApp.PL.csproj",
+      "projectUniqueName": "/home/nxto/Programming/3TierBlogApp/BlogApp.PL/BlogApp.PL.csproj",
       "projectName": "BlogApp.PL",
-      "projectPath": "/home/nxto/Programming/C#/BlogApp.PL/BlogApp.PL.csproj",
+      "projectPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.PL/BlogApp.PL.csproj",
       "packagesPath": "/home/nxto/.nuget/packages/",
-      "outputPath": "/home/nxto/Programming/C#/BlogApp.PL/obj/",
+      "outputPath": "/home/nxto/Programming/3TierBlogApp/BlogApp.PL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nxto/.nuget/NuGet/NuGet.Config"

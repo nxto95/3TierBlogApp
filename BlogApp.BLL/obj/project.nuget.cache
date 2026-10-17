@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vtJuwO1M0bU=",
+  "dgSpecHash": "TRhjbuZcCNQ=",
   "success": true,
-  "projectFilePath": "/home/nxto/Programming/C#/BlogApp.BLL/BlogApp.BLL.csproj",
+  "projectFilePath": "/home/nxto/Programming/3TierBlogApp/BlogApp.BLL/BlogApp.BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

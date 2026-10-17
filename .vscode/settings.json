@@ -1,4 +1,11 @@
 {
   "dotnet.defaultSolution": "BlogApp.slnx",
-  "cSpell.words": ["buildtransitive", "contentfiles"]
+  "cSpell.words": [
+    "Antiforgery",
+    "buildtransitive",
+    "Cbor",
+    "contentfiles",
+    "Linq",
+    "nxto"
+  ]
 }
